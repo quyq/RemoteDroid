@@ -16,7 +16,7 @@ import com.android.grafika.CircularEncoderBuffer;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
-import in.umairkhan.remotedroid.R;
+import in.omerjerk.remotedroid.app.R;
 
 /**
  * Created by omerjerk on 13/1/15.

@@ -41,7 +41,7 @@ import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;
 
-import in.umairkhan.remotedroid.R;
+import in.omerjerk.remotedroid.app.R;
 
 public class ServerService extends Service {
 

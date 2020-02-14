@@ -7,7 +7,7 @@ import android.preference.EditTextPreference;
 import android.preference.ListPreference;
 import android.preference.PreferenceActivity;
 
-import in.umairkhan.remotedroid.R;
+import in.omerjerk.remotedroid.app.R;
 
 /**
  * Created by omerjerk on 26/7/14.

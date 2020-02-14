@@ -31,7 +31,7 @@ import java.nio.ByteBuffer;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import in.umairkhan.remotedroid.R;
+import in.omerjerk.remotedroid.app.R;
 
 @SuppressLint("NewApi")
 public class ClientActivity extends Activity implements SurfaceHolder.Callback, View.OnTouchListener{
@@ -283,7 +283,7 @@ public class ClientActivity extends Activity implements SurfaceHolder.Callback, 
         try {
             switch (motionEvent.getAction()) {
                 case MotionEvent.ACTION_DOWN:
-                    touchData.put("type", KEY_FINGER_DOWN);
+                    touchData.put(KEY_EVENT_TYPE, KEY_FINGER_DOWN);
                     break;
                 case MotionEvent.ACTION_MOVE:
                     touchData.put(KEY_EVENT_TYPE, KEY_FINGER_MOVE);

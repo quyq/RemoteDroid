@@ -21,7 +21,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 import eu.chainfire.libsuperuser.Shell;
-import in.umairkhan.remotedroid.R;
+import in.omerjerk.remotedroid.app.R;
 
 
 public class MainActivity extends Activity {
@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
             "mv /system/priv-app/RemoteDroid.apk.tmp /system/priv-app/RemoteDroid.apk\n" +
             "pm install -r /system/priv-app/RemoteDroid.apk\n" +
             "sleep 5\n" +
-            "am start -n in.tosc.remotedroid.app/.MainActivity";
+            "am start -n in.oemrjerk.remotedroid.app/.MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
                             if (isRooted) {
                                 Toast.makeText(MainActivity.this, "Device is rooted", Toast.LENGTH_SHORT).show();
                             } else {
-                                Toast.makeText(MainActivity.this, "Device us unrooted! You won't be able to use" +
+                                Toast.makeText(MainActivity.this, "Device is unrooted! You won't be able to use" +
                                         "this device as a server", Toast.LENGTH_SHORT).show();
                             }
                         }

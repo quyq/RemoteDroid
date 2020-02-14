@@ -15,7 +15,7 @@ public class MainStarter {
 
     private static final String TAG = "MainStarter";
 
-    private static final String COMMAND = "su -c \"CLASSPATH=%s /system/bin/app_process32 " +
+    private static final String COMMAND = "su -c \"CLASSPATH=%s /system/bin/app_process " +
             "/system/bin in.omerjerk.remotedroid.app.Main\"\n";
 
     private Context context;
